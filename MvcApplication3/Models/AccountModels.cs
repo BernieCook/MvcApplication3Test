@@ -8,13 +8,15 @@ using System.Web.Security;
 
 namespace MvcApplication3.Models
 {
+    /// <summary>
+    /// Adding some comments.
+    /// </summary>
     public class UsersContext : DbContext
     {
         public UsersContext()
             : base("DefaultConnection")
         {
         }
-          
          
         public DbSet<UserProfile> UserProfiles { get; set; }
     }
