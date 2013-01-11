@@ -2,5 +2,6 @@
 {
     public class IndexModel
     {
+        public string ActionCreated { get; set; }
     }
 }
