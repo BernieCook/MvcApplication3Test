@@ -14,7 +14,8 @@ namespace MvcApplication3.Models
             : base("DefaultConnection")
         {
         }
-
+          
+         
         public DbSet<UserProfile> UserProfiles { get; set; }
     }
 
